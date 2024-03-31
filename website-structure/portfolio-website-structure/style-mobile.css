@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+    .first-section img{
+        width: 0;
+    }    
+
+    .third-section{
+        height: 300px;
+        background-image: none;
+    }
+
+    .third-section a{
+        color: #ededed;
+        font-weight: bold;
+        margin: 30px;
+    }
+    .third-section a span{
+        color: ff6a5a;
+    }
+}
