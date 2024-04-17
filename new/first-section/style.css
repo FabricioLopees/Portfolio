@@ -15,7 +15,7 @@ body{
     background-color: var(--background);
 }
 .presentation{
-    max-height: 100vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
     grid-template-areas: "presentation-text presentation-image presentation-image";
@@ -40,6 +40,7 @@ body{
 }
 .presentation-text{
     color: var(--text);
+    font-size: 18px;
 }
 .presentation-buttons{
     display: flex;
@@ -47,7 +48,7 @@ body{
 }
 .presentation-buttons a{
     color: var(--main);
-    border: 2px solid white;
+    border: 2px solid var(--main);
     border-radius: 10px;
     width: 100px;
     height: 40px;
@@ -61,8 +62,13 @@ body{
     background-color: var(--main);
     border-color: var(--main);
 }
-.presentation-buttons a img{
+.presentation-buttons a:hover svg{
+    fill: var(--text);
+}
+
+.presentation-buttons a svg{
     height: 70%;
+    fill: var(--main);
 }
 .presentation-image{
     grid-area: presentation-image;
