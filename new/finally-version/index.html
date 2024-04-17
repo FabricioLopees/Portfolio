@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="style-mobile.css">
-
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/style-mobile.css">
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <title>FIRST SECTION</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <div class="presentation">
@@ -30,7 +34,7 @@
             </div>
         </div>
         <div class="presentation-image">
-            <img src="../../img/programming.svg" alt="programming illustration">
+            <img src="images/presentation-image.svg" alt="programming illustration">
         </div>
     </div>
 
@@ -58,5 +62,77 @@
             </div>
         </div>
     </div>
+
+    <div class="projects">
+        <h2 class="projects-title">Projetos</h2>
+
+        <div class="slide-container swiper">
+
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="images/backup-icon.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Backup Tool</h2>
+                            <p class="description">Uma simples ferramenta para fazer cópias de arquivos, ou até mesmo do seu sistema</p>
+
+                            <button class="button"><a href="https://FabricioLopees.github.io/BackupTool" target="_blank">Ver mais</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="images/bash-icon.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Shell Scripts</h2>
+                            <p class="description">Um conjunto de scripts que utilizo no meu dia a dia para automatizar tarefas</p>
+
+                            <button class="button"><a href="https://FabricioLopees.github.io/ShellScripts" target="_blank" rel="noopener noreferrer">Ver mais</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="images/java-icon.svg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Java OO</h2>
+                            <p class="description">Um acompanhamento dos meus estudos em Java orientado a objetos</p>
+
+                            <button class="button"><a href="https://FabricioLopees.github.io/JavaOO" target="_blank" rel="noopener noreferrer">Ver mais</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
