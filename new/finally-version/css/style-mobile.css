@@ -30,6 +30,16 @@
     .swiper-navBtn{
         display: none;
     }
+
+    /* 
+    
+        FOOTER
+
+    */
+
+    .footer p{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 700px){
 
