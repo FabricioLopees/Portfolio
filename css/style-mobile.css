@@ -70,4 +70,20 @@
         font-size: 25px;
         margin-bottom: 10px;
     }
+
+
+    /* 
+    
+        PRESENTATION BUTTONS
+    
+    */
+
+    .presentation-buttons{
+        justify-content: space-between;
+    }
+
+    .download-cv-container{
+        width: 100%;
+        padding-right: 9px;
+    }
 }
